@@ -1,13 +1,14 @@
 const Discord = require("discord.js")
 const bot = new Discord.Client()
-bot.login(process.env["TOKEN"])
-var prefix = process.env["Prefix"]
+const config = require('./config.json')
+bot.login(config.token)
+var prefix = config.Prefix
 const express = require('express');
 const app = express();
 const http = require("http")
 //var economy = require('discord-eco');
 
-/*GLITCH*/
+/*GLITCH
 app.get("/", (request, response) => {
   console.log(Date.now() + " Ping Received");
   response.sendStatus(200);
