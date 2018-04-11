@@ -1,6 +1,6 @@
 {
-  footer: "Word & Fantasy | Officiel",
-  token: "NDI3ODg3Mzg4Mzk2ODc5ODgz.DZvwzA.ib6YD0i2rl2BT7yzE9Cwor1XXds",
-  Prefix: "f!",
-  Footer: "FableBOT | Officel"
+  "footer": "Word & Fantasy | Officiel",
+  "token": "NDI3ODg3Mzg4Mzk2ODc5ODgz.DZvwzA.ib6YD0i2rl2BT7yzE9Cwor1XXds",
+  "Prefix": "f!",
+  "Footer": "FableBOT | Officel"
 }
