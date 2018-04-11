@@ -78,17 +78,17 @@ bot.on("message", message => {
   const command = args.shift().toLowerCase();
   //Commande
   test(message, bot, prefix);
-  hh(message, bot);
-  serverinfo(message, bot)
-  clearmessage(message, bot, args)
-  gif(message, bot, args)
-  invitation(message, bot)
-  evalcode(message, bot, args)
-  say(message, bot, args)
-  musique(message, bot, args)
-  giftxt(message, bot)
-  sondage(message, bot, args)
-  joinleave(message, bot, settings)
+  hh(message, bot, prefix);
+  serverinfo(message, bot, prefix)
+  clearmessage(message, bot, args, prefix)
+  gif(message, bot, args, prefix)
+  invitation(message, bot, prefix)
+  evalcode(message, bot, args, prefix)
+  say(message, bot, args, prefix)
+  musique(message, bot, args, prefix)
+  giftxt(message, bot, prefix)
+  sondage(message, bot, args, prefix)
+  joinleave(message, bot, settings, prefix)
  });
 /*DETECTION COMMANDE*/
 
