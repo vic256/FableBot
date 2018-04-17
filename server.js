@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 const bot = new Discord.Client()
 const config = require('./config.json')
-bot.login("NDI3ODg3Mzg4Mzk2ODc5ODgz.DZvwzA.ib6YD0i2rl2BT7yzE9Cwor1XXds")
+bot.login("NDI3ODg3Mzg4Mzk2ODc5ODgz.Dbe3XA.GrOZGZj2tRECfRQMOQGPZjz1z4E")
 var prefix = config.Prefix
 const express = require('express');
 const app = express();
